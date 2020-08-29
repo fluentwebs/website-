@@ -3,6 +3,7 @@ body {
     font-weight: 400;
     background: #ECECEC;
     color: #111;
+    font-size: 1.75em;
   }
   h2 {
     font-size: 40px;
@@ -153,6 +154,10 @@ body {
   .ico {
     margin: 40px 0 20px 0;
   }
+  .profiles {
+      margin-top: 2em;
+      margin-bottom: 2em;
+  }
   
   /* =========================== PORTFOLIO =========================== */
   #portfolio {
@@ -167,6 +172,9 @@ body {
     -moz-border-radius: 6px;
       margin-bottom: 30px;
       box-shadow: 0px 0px 10px rgba(21, 21, 21, 0.1);
+  }
+  .row.tiles {
+      left: 0 !important;
   }
   /* =========================== GENERAL =========================== */
   .img-fluid {
