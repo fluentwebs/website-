@@ -120,7 +120,11 @@ body {
       height: 320px;
     }
     #hero h2 {
-        font-size: 2em;
+        font-size: 1em;
+        bottom: 10px;
+    }
+    .carousel-indicators {
+        display: none;
     }
   }
   
