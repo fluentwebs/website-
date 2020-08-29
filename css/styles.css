@@ -98,11 +98,26 @@ body {
       height: 400px;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    #hero h2 {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .servBox {
+        margin-bottom: 30px;
+    }
+  }
   
   @media only screen and (max-width: 540px) {
     .ill-hero1 {
       background-size: 100%;
       height: 320px;
+    }
+    #hero h2 {
+        font-size: 2em;
     }
   }
   
