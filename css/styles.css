@@ -195,6 +195,29 @@ body {
   .marB4 {
       margin-bottom: 4em;
   }
+
+  .thumbnailpara{
+    width: 100%;
+    height: auto;
+  }
+
+  #about{
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .about-us-copy{
+    position: absolute;
+    bottom: 40px;
+    z-index: 9999;
+    color: #fff;
+  }
+
+  .about-us-copy p{
+    width: 50%;
+    margin: auto;
+  }
   
     /* =========================== FOOTER =========================== */
   footer {

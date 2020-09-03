@@ -30,6 +30,9 @@ jQuery(window).on('load', function($){
     });
 });
 
+var image = document.getElementsByClassName('thumbnailpara');
+new simpleParallax(image);
+
 
   
   
