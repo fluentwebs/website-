@@ -39,7 +39,7 @@ if (typeof jQuery === "undefined") {
       image: {
         tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
         titleSrc: function(item) {
-          return item.el.attr('title') + '<br /><a href="https://jabbolt.com" target="_blank">Go to Site</a>';
+          return item.el.attr('title') + '&nbsp;<a href="https://jabbolt.com" target="_blank">Go to Site</a>';
         }
       }
     });
@@ -57,7 +57,7 @@ if (typeof jQuery === "undefined") {
       image: {
         tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
         titleSrc: function(item) {
-          return item.el.attr('title') + '<br /><a href="https://www.upward.net/" target="_blank"> Go to site</a>';
+          return item.el.attr('title') + '&nbsp;<a href="https://www.upward.net/" target="_blank"> Go to site</a>';
         }
       }
     });

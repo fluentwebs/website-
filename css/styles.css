@@ -18,6 +18,13 @@ body {
     width: 180px;
     height: auto;
   }
+  a {
+    color: #ff0000;
+  }
+
+  a:hover {
+    color: #c30000;
+  }
   
   
   .navbar-toggle img {
