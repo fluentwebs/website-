@@ -248,9 +248,12 @@ body {
     .servBox {
         margin-bottom: 30px;
     }
+    #hero h2 {
+      display: none;
+    }
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-      width: auto;
-      height: 400px;
+      width: 100%;
+      height: auto;
       max-width: inherit;
     }
     
