@@ -84,7 +84,7 @@ body {
   #hero h2 {
     bottom: 40px;
     position: absolute;
-    color: #fff;
+    color: #3d3d3d;
     left: 40px;
     font-size: 1.6em;
   }
@@ -100,12 +100,12 @@ body {
   }
   
   .carousel-indicators li {
-    background-color: rgba(225, 225,225, 0.2);
+    background-color: #9a9a9a;
     border: none;
   }
   
   .carousel-indicators .active {
-    background-color: rgba(225, 225,225, 0.4);
+    background-color: #3d3d3d;
   }
   
 
